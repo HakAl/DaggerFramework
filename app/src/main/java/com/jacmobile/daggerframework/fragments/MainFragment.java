@@ -14,7 +14,7 @@ import javax.inject.Inject;
 /**
  * Created by alex on 10/12/14.
  */
-public class MainFragment extends BaseFragment
+public class MainFragment extends ABaseFragment
 {
     @Inject
     Picasso picasso;

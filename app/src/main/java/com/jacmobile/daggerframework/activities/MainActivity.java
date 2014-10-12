@@ -10,7 +10,7 @@ import com.jacmobile.daggerframework.fragments.MainFragment;
 /**
  * Created by alex on 10/12/14.
  */
-public class MainActivity extends BaseActivity
+public class MainActivity extends ABaseActivity
 {
     @Override
     protected void onCreate(Bundle savedInstanceState)

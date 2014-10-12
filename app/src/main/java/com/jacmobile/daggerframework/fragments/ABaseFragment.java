@@ -3,19 +3,19 @@ package com.jacmobile.daggerframework.fragments;
 import android.app.Fragment;
 import android.os.Bundle;
 
-import com.jacmobile.daggerframework.activities.BaseActivity;
+import com.jacmobile.daggerframework.activities.ABaseActivity;
 
 /**
  * Base fragment which performs injection using the activity-scoped object graph
  */
-public abstract class BaseFragment extends Fragment
+public abstract class ABaseFragment extends Fragment
 {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // Assume that it lives within a BaseActivity host
-        ((BaseActivity)getActivity()).inject(this);
+        ((ABaseActivity)getActivity()).inject(this);
     }
 
     protected <T> T getView(int id) {

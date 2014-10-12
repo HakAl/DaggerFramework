@@ -22,19 +22,6 @@ import dagger.Provides;
 )
 public class ApplicationScopeModule
 {
-
-//    @Provides @FacebookApiKey
-//    String providesFacebookApiKey() {
-//        // Create your Facebook App at https://developers.facebook.com/apps
-//        return "Injected: your-fb-api-key";
-//    }
-//
-//    @Provides @FacebookApiSecret
-//    String providesFacebookApiSecret() {
-//        // Create your Facebook App at https://developers.facebook.com/apps
-//        return "Injected: your-fb-api-secret";
-//    }
-//
     @Provides
     Picasso providesPicasso(@ForApplication Context context) {
         Picasso picasso = Picasso.with(context);

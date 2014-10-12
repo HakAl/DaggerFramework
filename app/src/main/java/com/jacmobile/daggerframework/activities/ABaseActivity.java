@@ -10,7 +10,7 @@ import com.jacmobile.daggerframework.interfaces.DaggerInjector;
 import dagger.ObjectGraph;
 
 
-public abstract class BaseActivity extends Activity implements DaggerInjector
+public abstract class ABaseActivity extends Activity implements DaggerInjector
 {
     private ObjectGraph mActivityGraph;
 
