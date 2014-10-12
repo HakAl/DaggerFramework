@@ -3,6 +3,7 @@ package com.jacmobile.daggerframework.activities;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.jacmobile.daggerframework.injection.ActivityScopeModule;
 import com.jacmobile.daggerframework.injection.DaggerApplication;
 import com.jacmobile.daggerframework.interfaces.DaggerInjector;
 

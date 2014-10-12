@@ -1,8 +1,10 @@
-package com.jacmobile.daggerframework.activities;
+package com.jacmobile.daggerframework.injection;
 
 import android.app.Activity;
 import android.content.Context;
 
+import com.jacmobile.daggerframework.activities.BaseActivity;
+import com.jacmobile.daggerframework.activities.MainActivity;
 import com.jacmobile.daggerframework.fragments.MainFragment;
 import com.jacmobile.daggerframework.injection.ApplicationScopeModule;
 import com.jacmobile.daggerframework.injection.annotations.ForActivity;
